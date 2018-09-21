@@ -1,0 +1,14 @@
+.contacts {
+    padding: 30px 0;
+    .wrapper {
+        justify-content: space-between;
+    }
+    &__h3 {
+        color: #111111;
+        font-family: Oswald;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+}

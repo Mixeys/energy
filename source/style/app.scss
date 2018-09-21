@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+$bg-grey: #f2f2f2;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #444;
+}
+
+h2 {
+  color: #111111;
+  font-family: Oswald;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  border: none;
+  outline: none;
+}
+
+.wrapper {
+  display: flex;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@import 'common/header';
+@import 'common/hamburgers';
+@import 'common/top-bar';
+@import 'common/menu';
+@import 'common/first-screen';
+@import 'common/categories';
+@import 'common/advantages';
+@import 'common/boris';
+@import 'common/contacts';
+@import 'common/map';
+@import 'common/footer';
+@import 'common/breakpoints';

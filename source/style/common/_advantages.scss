@@ -1,0 +1,46 @@
+.advantages {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    .wrapper {
+        flex-direction: column;
+    }
+    &__h2 {
+        margin-bottom: 35px;
+        color: #111111;
+        font-family: Oswald;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        display: flex;
+        margin-bottom: 20px;
+        &:nth-child(1) .advantages__img {
+            background-position: 15px 15px;
+        }
+        &:nth-child(2) .advantages__img {
+            background-position: 15px -60px;
+        }
+        &:nth-child(3) .advantages__img {
+            background-position: 15px -140px;
+        }
+        &:nth-child(4) .advantages__img {
+            background-position: 15px -220px;
+        }
+    }
+    &__img {
+        min-width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        background-image: url('../img/icons-sprite.png');
+        background-color: #68b738;
+        background-repeat: no-repeat;
+    }
+    &__number {
+        display: none;
+    }
+}

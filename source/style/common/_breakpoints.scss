@@ -1,0 +1,268 @@
+@media screen and (min-width: 768px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+    header {
+        background: none;
+        .top-bar {
+            &__logo-text {
+                display: none;
+                padding-top: 25px;
+                padding-bottom: 20px;
+            }
+        }
+        .hamburger { 
+            display: none;
+        }
+        .menu {
+            display: flex;
+            position: static;
+            max-width: 60%;
+            &__list {
+                display: flex;
+            }
+            &__item {
+                border-top: none;
+                &:last-child a {
+                    padding-right: 0;
+                }
+            }
+            &__link {
+                font-size: 18px;
+            }
+        }
+        .first-screen {
+            background: url(../img/energy-tablet.png) no-repeat center bottom;
+            background: url(../img/energy-tablet.png) no-repeat center bottom;
+            .wrapper {
+                padding-left: 120px;
+                text-align: left;
+                align-items: flex-start;
+            }
+            &__h1 {
+                padding-right: 200px;
+                margin-bottom: 30px;
+                color: #111111;
+                font-size: 60px;
+                font-weight: 400;
+                line-height: 60px;
+            }
+            &__h3 {
+                margin-bottom: 50px;
+                color: #111111;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+            .btn--green {
+                margin-bottom: 500px;
+            }
+        }
+    }
+    .categories {
+        &__block {
+            padding: 60px;
+        }
+        &__h2 {
+            font-size: 36px;
+        }
+        &__img {
+            &--big {
+                display: block;
+            }
+            &--small {
+                display: none;
+            }
+        }
+        &__content {
+            display: flex;
+        }
+        &__text {
+            margin-right: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+            border-bottom: none;
+        }
+        &__link {
+            font-size: 20px;
+        }
+    }
+    .advantages {
+        padding-top: 30px;
+        &__h2 {
+            margin-bottom: 60px;
+            font-size: 60px;
+        }
+        &__list {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &__item {
+            position: relative;
+            z-index: 1;
+            width: 250px;
+            margin-right: 80px;
+            margin-bottom: 90px;
+            flex-direction: column;
+            &:nth-child(1) .advantages__img {
+                background-position: 25px 25px;
+            }
+            &:nth-child(2) .advantages__img {
+                background-position: 25px -50px;
+            }
+            &:nth-child(3) .advantages__img {
+                background-position: 25px -130px;
+            }
+            &:nth-child(4) .advantages__img {
+                background-position: 25px -210px;
+            }
+        }
+        &__img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 35px;
+        }
+        &__number {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            display: block;
+            color: #f2f2f2;
+            font-family: Oswald;
+            font-size: 281px;
+            font-weight: 400;
+            line-height: .7;
+        }
+    }
+    .boris {
+        padding-top: 30px;
+        padding-bottom: 60px;
+        &__h2 {
+            font-size: 60px;
+            margin-bottom: 60px;
+        }
+        &__text {
+            margin-bottom: 55px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        &__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__box {
+            padding: 20px;
+            &:first-child {
+                margin-right: 40px;
+            }
+            .boris__h2 {
+                font-size: 30px;
+            }
+        }
+        &__h3 {
+            font-size: 20px;
+        }
+        &__label {
+            font-size: 20px;
+        }
+    }
+    .contacts {
+        padding: 60px 0;
+        &__h3 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .wrapper {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__title {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        &__social {
+            border-bottom: none;
+            padding: 0;
+        }
+        &__copyright {
+            padding-top: 0;
+        }
+        &__link {
+            margin-left: 30px;
+        }
+        .social {
+            &__link {
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .wrapper {
+        padding: 0 110px;
+    }
+    header {
+        margin-bottom: 80px;
+        background: url(../img/index-background-desktop.png) no-repeat right top;
+        .first-screen {
+            padding-top: 100px;
+            padding-left: 190px;
+            background: url(../img/energy-desktop.png) no-repeat 75% center;
+        }
+        .menu {
+            max-width: 30%;
+            background-color: transparent;
+            &__link {
+                color: white;
+            }
+            span:before,
+            span:after {
+                background-color: white;
+            }
+        }
+        .first-screen {
+            .btn--green {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .categories {
+        .wrapper {
+            flex-direction: row;
+        }
+        &__block:first-child {
+            margin-right: 80px;
+        }
+    }
+    .boris {
+        &__wrap-outer {
+            display: flex;
+        }
+        &__wrap-inner {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 50%;
+            align-items: center;
+            justify-content: center;
+            &:first-child {
+                align-items: flex-start;
+            }
+        }
+        &__content {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &__block {
+            margin-bottom: 80px;
+        }
+    }
+}

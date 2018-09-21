@@ -1,0 +1,35 @@
+.first-screen {
+    min-height: 500px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 14px;
+    line-height: 1;
+    background: url(../img/energy.png) no-repeat center 80%;
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &__h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    &__h3 {
+        margin-bottom: 300px;
+        text-transform: uppercase;
+    }
+    .btn--green {
+        padding: 15px 25px;
+        color: #ffffff;
+        font-family: Oswald;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        background-color: #68b738;
+        &:hover {
+            background-color: #5eaa2f;
+        }
+    }
+}
