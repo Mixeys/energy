@@ -38,4 +38,13 @@
         align-items: center;
         padding-top: 20px;
     }
+    &__link {
+        display: block;
+        width: 27px;
+        height: 45px;
+        background: url(../img/academy.png) no-repeat center;
+        &:hover {
+            background: url(../img/academy-green.png) no-repeat center;
+        }
+    }
 }

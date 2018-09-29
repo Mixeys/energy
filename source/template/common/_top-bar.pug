@@ -1,11 +1,11 @@
 section.top-bar
     .wrapper
-        a.top-bar__logo(href="/")
+        a.logo.top-bar__logo(href="/")
             picture
                 source(media="(min-width: 768px)" srcset="assets/img/logo-tablet.png")
                 source(media="(min-width: 1220px)" srcset="assets/img/logo-desktop.png")
                 img.logo__img(src="assets/img/logo-mobile.png", alt="logo")
-        a.top-bar__logo-text(href="/")
+        a.logo.top-bar__logo-text(href="/")
             img.logo__img(src="assets/img/logo-mobile-header.png", alt="logo-header")
         include ./_hamburger.pug
         include ./_menu.pug

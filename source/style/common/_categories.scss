@@ -13,6 +13,7 @@
         margin-bottom: 25px;
     }
     &__img {
+        object-fit: contain;
         margin-right: 20px;
         &--big {
             display: none;
@@ -43,9 +44,8 @@
             opacity: .3;
         }
     }
-}
-
-.link__img {
-    display: inline-block;
-    margin-left: 15px;
+    &__link-img {
+        display: inline-block;
+        margin-left: 15px;
+    }
 }

@@ -24,7 +24,13 @@ html
     <![endif]-->
 
   body
+    include ./common/_header.pug
+
     block content
+
+    include ./common/_contacts.pug
+    include ./common/_map.pug
+    include ./common/_footer.pug
 
     script(src="assets/js/map.js")
     script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZn0KltqBAgc8mMk-k8y8CZ5AantnzTUM&callback=initMap" async defer)
