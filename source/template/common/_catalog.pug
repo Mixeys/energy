@@ -1,10 +1,12 @@
 section.catalog
     .wrapper
-        h2.catalog__h1 Каталог продукции
+        h1.catalog__h1 Каталог продукции
         ul.catalog__list
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-1-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-1.png")
+                        img.catalog__img(src="./assets/img/catalog-1-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
                             | Cat Energy 
@@ -23,7 +25,9 @@ section.catalog
                 button.btn.btn--green Заказать
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-2-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-2.png")
+                        img.catalog__img(src="./assets/img/catalog-2-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
                             | Cat Energy 
@@ -42,7 +46,9 @@ section.catalog
                 button.btn.btn--green Заказать
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-3-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-3.png")
+                        img.catalog__img(src="./assets/img/catalog-3-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
                             | Cat Energy 
@@ -61,7 +67,9 @@ section.catalog
                 button.btn.btn--green Заказать
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-4-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-4.png")
+                        img.catalog__img(src="./assets/img/catalog-4-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
                             | Cat Energy 
@@ -80,7 +88,9 @@ section.catalog
                 button.btn.btn--green Заказать
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-5-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-5.png")
+                        img.catalog__img(src="./assets/img/catalog-5-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
                             | Cat Energy 
@@ -99,7 +109,9 @@ section.catalog
                 button.btn.btn--green Заказать
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-6-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-6.png")
+                        img.catalog__img(src="./assets/img/catalog-6-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
                             | Cat Energy 
@@ -118,10 +130,12 @@ section.catalog
                 button.btn.btn--green Заказать
             li.catalog__item
                 .catalog__content
-                    img.catalog__img(src="./assets/img/catalog-7-mobile.png", alt="food for cat")
+                    picture
+                        source(media="(min-width: 768px)" srcset="./assets/img/catalog-7.png")
+                        img.catalog__img(src="./assets/img/catalog-7-mobile.png", alt="food for cat")
                     .catalog__info
                         h3.catalog__h3
-                            | Cat Energy 
+                            | Cat Energy
                             br
                             | slim 500 г
                         ul.catalog__sublist
