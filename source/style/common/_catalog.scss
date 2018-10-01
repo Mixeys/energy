@@ -48,6 +48,9 @@
     &__subitem {
         display: flex;
         justify-content: space-between;
+        &:last-child {
+            margin-bottom: 25px;
+        }
     }
     &__span {
         color: #444444;
