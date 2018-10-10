@@ -1,0 +1,39 @@
+section.form
+    .wrapper
+        h1.form__h1 Подбор программы
+        h3.form__h3 Заполните анкету и мы подберем программу питания для вашего кота
+        form(action="#", method="post")
+            .form__content
+                .form__box
+                    label(for="name").form__label Имя:*
+                    input(type="text" placeholder="Барсик")#name.form__input.form__input--text
+                .form__box
+                    label(for="waight").form__label Вес (кг):*
+                    input(type="text" placeholder="7")#waight.form__input.form__input--text
+                .form__box
+                    label(for="age").form__label Возраст (лет):
+                    input(type="text" placeholder="7")#age.form__input.form__input--text
+                input(type="radio" name="radiobutton")#radio1.form__input.form__input--radio
+                label(for="radio1").form__label.form__label--radio
+                input(type="radio" name="radiobutton")#radio2.form__input.form__input--radio
+                label(for="radio2").form__label.form__label--radio
+                input(type="radio" name="radiobutton")#radio3.form__input.form__input--radio
+                label(for="radio3").form__label.form__label--radio
+            h2.form__h2 Контактные данные #[br] (владельца кота)
+            label(for="").form__label
+            input(type="text")
+            label(for="").form__label
+            input(type="text")
+            h2.form__h2 Комментарий
+            textarea(name="", cols="30", rows="10", placeholder="Расскажите обо всех повадках кота")
+            h2.form__h2 Дополнительно
+            input(type="text")
+            label(for="").form__label
+            input(type="text")
+            label(for="").form__label
+            input(type="text")
+            label(for="").form__label
+            input(type="text")
+            label(for="").form__label
+            input(type="submit", value="Отправить заявку").btn.btn--green
+            p.form__text * — Обязательные поля
